@@ -1,7 +1,7 @@
 <launch>
     <arg name="role_name" default="ego_vehicle"/>
-    <arg name="resolution_x_px" default='1280'/>
-    <arg name="resolution_y_px" default='720'/>
+    <arg name="resolution_x_px" default='640'/>
+    <arg name="resolution_y_px" default='480'/>
     <arg name="window_pos_x_px" default='0'/>
     <arg name="window_pos_y_px" default='0'/>
     <arg name="no_frame" default='False'/>

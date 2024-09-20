@@ -1,5 +1,5 @@
 <launch>
-    <arg name="host" default="127.0.0.1"/>
+    <arg name="host" default='192.168.0.172'/> <!-- ganesh @ thecarlab-ft -->
     <arg name='role_name' default='ego_vehicle'/>
     <arg name="port" default="8551"/>
 

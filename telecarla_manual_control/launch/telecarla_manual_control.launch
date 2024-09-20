@@ -1,6 +1,6 @@
 <launch>
-    <arg name='host' default='localhost'/>
-    <arg name='port' default='2000'/>
+    <arg name='host' default='192.168.0.172'/> <!-- ganesh @ thecarlab-ft -->
+    <arg name='port' default='2020'/>
     <arg name='role_name' default='ego_vehicle'/>
     <arg name="resolution_x_px" default='1280'/>
     <arg name="resolution_y_px" default='720'/>

@@ -2,7 +2,7 @@
     <arg name="role_name" default="ego_vehicle"/>
     <arg name="keyboard_control" default="True"/>
     <arg name="carla_host" default="localhost"/>
-    <arg name="carla_port" default="2000"/>
+    <arg name="carla_port" default="2020"/>
     <arg name="wheel_config" default="$(find telecarla_manual_control)/config/wheel_config.ini"/>
 
     <include file="$(find carla_ros_bridge)/launch/carla_ros_bridge.launch"

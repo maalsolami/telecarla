@@ -11,8 +11,8 @@
         rear_right: /carla/$(arg role_name)/rear_right/image
     }"/>
     <arg name="wheel_config" default="$(find telecarla_gui)/config/wheel_config.yml"/>
-    <arg name="carla_host" default="localhost"/>
-    <arg name="carla_port" default="2000"/>
+    <arg name="carla_host" default="192.168.0.172"/> <!-- ganesh @ thecalab-ft -->
+    <arg name="carla_port" default="2020"/>
 
     <include file="$(find carla_ros_bridge)/launch/carla_ros_bridge.launch" unless="$(eval arg('carla_host') == 'localhost')">
         <arg name='host' value='$(arg carla_host)'/>

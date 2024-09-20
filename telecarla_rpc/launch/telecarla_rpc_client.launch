@@ -1,6 +1,6 @@
 <launch>
-    <arg name='rpc_host' default='localhost'/>
-    <arg name='rpc_port' default='2002'/>
+    <arg name='rpc_host' default='192.168.0.172'/> <!-- ganesh @ thecaralb-ft -->
+    <arg name='rpc_port' default='2022'/>
     <arg name='role_name' default='ego_vehicle'/>
 
     <group ns="rpc">
