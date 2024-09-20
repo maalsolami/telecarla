@@ -273,8 +273,8 @@ class HUD:
         if self.carla_status.fixed_delta_seconds:
             fps = 1 / self.carla_status.fixed_delta_seconds
         self._info_text = [
-            f"Frame: {self.carla_status.frame:22s}",
-            f"Simulation time: {datetime.timedelta(seconds=int(rospy.get_rostime().to_sec())):12s}",
+            f"Frame: {self.carla_status.frame:22d}",
+            f"Simulation time: {str(datetime.timedelta(seconds=int(rospy.get_rostime().to_sec()))):12s}",
             f"FPS: {fps:24.1f}",
             "",
             f"Vehicle: {' '.join(self.vehicle_info.type.title().split('.')[1:]):20s}",
